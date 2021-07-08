@@ -27,7 +27,7 @@ const Comments = () => {
               <h1 className="logo"><i className="fas fa-gem"></i>SOBHAN</h1>
               <ul>
                 <li><Link to="/">Home</Link></li>
-                <li ><Link  className='comments' to="/Comments.js">Comments</Link></li>
+                <li ><Link  className='comments' to="/Comments">Comments</Link></li>
               </ul>
             </div>
           </div>
