@@ -29,7 +29,7 @@ const Home = () => {
                 <h1 className="logo"><i className="fas fa-gem"></i>SOBHAN</h1>
                 <ul>
                   <li><a className='home' href="/">Home</a></li>
-                  <li><a href="Comments.js">Comments</a></li>
+                  <li><a href="/Comments.js">Comments</a></li>
                 </ul>
               </div>
             </div>
