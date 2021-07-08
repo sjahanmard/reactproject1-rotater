@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Rotate from './Rotate'
+import Link from 'react-router-dom';
 
 const Home = () => {
   
@@ -28,8 +29,8 @@ const Home = () => {
               <div className="container flex">
                 <h1 className="logo"><i className="fas fa-gem"></i>SOBHAN</h1>
                 <ul>
-                  <li><a className='home' href="/">Home</a></li>
-                  <li><a href="/Comments.js">Comments</a></li>
+                  <li><Link className='home' to="/">Home</Link></li>
+                  <li><Link to="/Comments.js">Comments</Link></li>
                 </ul>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import  { CommentContext } from './CommentsContext';
 import CommentDetail from './CommentDetails';
 import CommentForm from './CommentForm';
+import Link from 'react-router-dom';
 const Comments = () => {
     const {comments} = useContext(CommentContext)
     return (
@@ -25,8 +26,8 @@ const Comments = () => {
             <div className="container flex">
               <h1 className="logo"><i className="fas fa-gem"></i>SOBHAN</h1>
               <ul>
-                <li><a href="/">Home</a></li>
-                <li ><a  className='comments' href="Comments.js">Comments</a></li>
+                <li><Link to="/">Home</Link></li>
+                <li ><Link  className='comments' to="/Comments.js">Comments</Link></li>
               </ul>
             </div>
           </div>
