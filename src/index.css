@@ -318,7 +318,7 @@ body .comment {
   cursor: pointer;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   border: 1px solid rgb(189, 187, 187);
-  color: #fff;
+  color: #fff;  
   background-color: rgb(89, 89, 160);
   transition: .1s ease-in;
 }
@@ -386,11 +386,28 @@ body .comment {
     background-color: #5cb85c;
     transition: all 1s ease-in;
   }
+  .main .container {
+  height: 30rem;
+  display:grid;
+  grid-template-columns: 1fr;
+  }
+ 
   .main .circle {
     display: none;
   }
+  
+  .main img {
+    width: 100%;
+    transform: translateY(-5rem);
+
+  }
   .footer a {
     margin: 0.5rem;
+  }
+  .footer .container {
+    justify-content: center;
+    margin: 0;
+
   }
   body .comment li {
     width: 15rem;

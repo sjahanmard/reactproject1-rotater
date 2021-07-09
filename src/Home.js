@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Rotate from './Rotate'
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Home = () => {
   
@@ -11,7 +11,7 @@ const Home = () => {
         <html lang="en">
           <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <link rel="stylesheet" href="styles.css" />
+            <link rel="stylesheet" href="index.css" />
             <title>SOBHAN | Sobhan Jahanmard</title>
             <link
               rel="icon"
@@ -30,7 +30,7 @@ const Home = () => {
                 <h1 className="logo"><i className="fas fa-gem"></i>SOBHAN</h1>
                 <ul>
                   <li><Link className='home' to="/">Home</Link></li>
-                  <li><Link to="/Comments">Comments</Link></li>
+                  <li><Link to="/Comments" >Comments</Link></li>
                 </ul>
               </div>
             </div>

@@ -11,9 +11,10 @@ function App() {
         <Switch>
         <Route path ='/' exact component={Home}/>
 
-          <CommentContextProvider>
-            <Route path='/Comments.js' component={Comments}/>
-          </CommentContextProvider>
+        <CommentContextProvider>
+            <Route path='/Comments' component={Comments}/>
+        </CommentContextProvider>
+
 
         </Switch>
       </div>
